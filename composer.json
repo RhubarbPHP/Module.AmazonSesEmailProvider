@@ -1,0 +1,21 @@
+{
+  "name": "rhubarbphp/module-amazon-ses-email",
+  "description": "Provides an EmailProvider for Amazon Simple Email Service (SES)",
+  "keywords": [ "email", "amazon", "ses", "rhubarb", "php", "framework" ],
+  "homepage": "http://www.rhubarbphp.com/",
+  "license": "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "Rhubarb\\AmazonSesEmail\\": "src/",
+      "Rhubarb\\AmazonSesEmail\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "rhubarbphp/rhubarb": "^1.0.0",
+    "aws/aws-sdk-php": "3.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.*"
+  }
+}
+
